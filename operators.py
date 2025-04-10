@@ -56,3 +56,17 @@ b = 2
 # result = x == y or a == b
 
 # Identity Operators (Identitas)
+# Sebuah perbandingan yang mengecek sebuah variabel, apakah mengacu pada objek yang sama.
+
+# is -> True if both variables are the same object
+value_a = None # class
+
+# result = value_a is None # apakah dia mengacu pada class tertentu -> True
+
+# is not -> True if variables both are not same or different object
+
+value_b = None # class
+
+result = value_b is not None # apakah dia tidak mengacu pada class tertentu -> False
+
+print(result)
